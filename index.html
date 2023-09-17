@@ -1,10 +1,492 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+
+  <title>Guangyu Chen's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--  <meta name="description" content="Yunhe Wang is currently a senior researcher at Huawei Noah's Ark Lab">-->
+  <meta name="keywords"
+        content="Guangyu Chen, 陈光宇, Deep Learning, Microsoft, RUC, Computer, Vision, Speech">
+  <link rel="stylesheet" href="data/w3.css">
+
+  <style>
+    .w3-sidebar a {
+      font-family: "Roboto", sans-serif
+    }
+
+    body, h1, h2, h3, h4, h5, h6, .w3-wide {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    /* 定义一个名为 "round-avatar" 的 CSS 类 */
+    .round-avatar {
+      width: 200px; /* 设置图片宽度 */
+      height: 200px; /* 设置图片高度 */
+      border-radius: 50%; /* 使用 border-radius 将图片剪裁成圆形 */
+      object-fit: cover; /* 保持图片比例并填充整个圆形区域 */
+    }
+
+  </style>
+
+  <link rel="icon" type="image/png" href="images/icons.png">
+  <!--
+  <script src="jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+        // Store hash
+        var hash = this.hash;
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  //-->
+
 </head>
-<body>
-Hello~
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <h3><b>Chen</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <!--    <a href="#news" class="w3-bar-item w3-button">News</a>-->
+    <!--    <a href="#talks" class="w3-bar-item w3-button">Talks</a>-->
+    <a href="#publications" class="w3-bar-item w3-button">Research</a>
+<!--    <a href="#projects" class="w3-bar-item w3-button">Projects</a>-->
+
+    <!--    <a href="#service" class="w3-bar-item w3-button">Services</a>-->
+    <!--    <a href="#award" class="w3-bar-item w3-button">Awards</a>-->
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">YUNHE</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"
+     style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+     id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <!-- The Home Section -->
+  <div class="w3-container w3-center w3-padding-32" id="home">
+    <img alt="profile photo" src="images/abc3.jpeg"
+         class="round-avatar">
+    <h1>Guangyu Chen</h1>
+    <p class="w3-justify"
+       style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+
+      <!--      I am now the head of the Huawei Applied AI lab and also a senior researcher at <a-->
+      <!--      href="https://www.noahlab.com.hk/">Huawei Noah's Ark Lab</a>, where I work on deep learning, model compression,-->
+      <!--      and computer vision, etc. Before that, I did my PhD at school of EECS, <a href="https://www.pku.edu.cn/">Peking-->
+      <!--      University</a>, where I was co-advised by Prof. <a href="https://dblp.org/pers/hd/x/Xu_0006:Chao">Chao Xu</a></a>-->
+      <!--      and Prof. <a href="https://scholar.google.com.sg/citations?user=RwlJNLcAAAAJ">Dacheng Tao</a></a>. I did my-->
+      <!--      bachelors at school of science, <a href="https://en.xidian.edu.cn/">Xidian University</a>.-->
+
+      I am currently a doctoral student at the School of Information, Renmin University of China.
+      My main research interests include digital watermarking,
+       natural language processing, and cross-modal learning.
+
+    </p>
+    <p class="w3-center">
+      Mail: my@huacishu.com
+      <!--      <a href="mailto:my@huacishu.com">hcs@ruc.edu.cn</a>-->
+<!--      <a href="mailto:my@huacishu.com">Email</a> &nbsp/&nbsp-->
+      <!--      <a href="https://scholar.google.com/citations?user=isizOkYAAAAJ">Google Scholar</a> &nbsp/&nbsp-->
+<!--      <a href="https://www.zhihu.com/people/huacishuhuacishu"> Zhi Hu </a> &nbsp/&nbsp-->
+
+<!--      <a href="https://github.com/my-yy">Github</a>-->
+
+      <!--      <a href="https://dblp.org/pid/63/8217-1.html"> DBLP </a>-->
+    </p>
+    </tbody></table>
+  </div>
+
+  <!-- The News Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="news" style="display:none;">
+    <h2>News</h2>
+    <p>
+      <li><a style="color:red">05/2023, Haven't updated in about one year. Some nice work has been done recently, and I
+        will try to update more frequently</a>.
+      </li>
+    </p>
+    <p>
+      <li> 05/2023, I will give a talk about Multimodal Learning at <a href="http://valser.org/2023/#/workshopde?id=11">VALSE
+        2023 workshop</a>.
+      </li>
+    </p>
+    <p>
+      <li> 04/2023, I will give a talk about Robust Machine Learning at <a
+        href="https://conf.ccf.org.cn/web/html4/index.html?globalId=m1104419495071584256168335572674&type=1">The CCF
+        Advanced Disciplines Lectures</a>.
+      </li>
+    </p>
+    <p>
+      <li> 03/2023, I accepted the invitation to serve as an Area Chair for <a href="https://nips.cc/Conferences/2023/">NeurIPS
+        2023</a>.
+      </li>
+    </p>
+    <p>
+      <li> 03/2023, 4 papers have been accepted by <a href="http://cvpr2023.theRcvf.com/">CVPR 2023</a>.</li>
+    </p>
+    <p>
+      <li> 12/2022, I accepted the invitation to serve as an Area Chair for <a href="https://icml.cc/Conferences/2023">ICML
+        2023</a>.
+      </li>
+    </p>
+    <p>
+      <li> 12/2022, I will give a talk about Efficient Deep Networks at <a
+        href="https://ccf.org.cn/cncc2022/schedule_d_4179">China National Computer Congress (CNCC) 2022</a>.
+      </li>
+    </p>
+    <p>
+      <li> 09/2022, 9 papers have been accepted by <a href="https://nips.cc/Conferences/2022">NeurIPS 2022</a>.</li>
+    </p>
+    <p>
+      <li> 05/2022, I will give a talk about Vision Transformer at <a
+        href="https://mp.weixin.qq.com/s/wO5RMXDvjPSeiZsIh2xvUw">BAAI 2022</a>.
+      </li>
+    </p>
+    <p>
+      <li> 02/2022, 8 papers have been accepted by <a href="http://cvpr2022.theRcvf.com/">CVPR 2022</a>.</li>
+    </p>
+    <p>
+      <li> 02/2022, Our suvery paper on vision transformer has been accepted by <a
+        href="https://arxiv.org/pdf/2012.12556">IEEE TPAMI</a>.
+      </li>
+    </p>
+    <!--
+    <p><li> 09/2021, 10 papers have been accepted by <a href="https://nips.cc/Conferences/2021">NeurIPS 2021</a>. Congrats to everyone!</li></p>
+    <p><li> 09/2021, The journal version of versatile filters has been accepted by <a href="https://ieeexplore.ieee.org/iel7/34/4359286/09543586.pdf">IEEE TPAMI</a>.</li></p>
+    <p><li> 07/2021, 1 paper has been accepted by <a href="https://iccv2021.thecvf.com/home">ICCV 2021</a>.</li></p>
+    <p><li> 05/2021, 1 paper has been accepted by <a href="https://icml.cc/">ICML 2021</a>.</li></p>
+    <p><li> 05/2021, I have been selected as a Senior Area Chair for <a href="http://valser.org/">VALSE 2021</a>.</li></p>
+    <p><li> 03/2021, I accepted the invitation to serve as an Area Chair for <a href="https://nips.cc/Conferences/2021/">NeurIPS 2021</a>.</li></p>
+    <p><li> 03/2021, 9 papers have been accepted by <a href="http://cvpr2021.theRcvf.com/">CVPR 2021</a>.</li></p>
+
+    <p><li> 01/2021, I will give a talk about AdderNet at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021 workshop</a>.</li></p>
+    <p><li> 12/2020, two papers have been accepted by <a href="https://aaai.org/Conferences/AAAI-21/">AAAI 2021</a>.</li></p>
+    <p><li> 11/2020, I accepted the invitation to serve as an Area Chair for <a href="https://icml.cc/Conferences/2021">ICML 2021</a>.</li></p>
+    <p><li> 09/2020, six papers have been accepted by <a href="https://nips.cc/Conferences/2020">NeurIPS 2020</a>.</li></p>
+    <p><li> 07/2020, one paper has been accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE TNNLS</a>.</li></p>
+    <p><li> 07/2020, one paper has been accepted by <a href="https://eccv2020.eu/accepted-papers/">ECCV 2020</a>.</li></p>
+    <p><li> 06/2020, two papers have been accepted by <a href="https://icml.cc/Conferences/2020/AcceptedPapersInitial">ICML 2020</a>.</li></p>
+    <p><li> 07/2020, one paper has been accepted by <a href="http://2020.acmmm.org/accepted-paper-id-list.txt">ACM MM 2020</a>.</li></p>
+    <p><li> 02/2020, seven papers have been accepted by <a href="http://openaccess.thecvf.com/menu.py">CVPR 2020</a>.</li></p>
+    <p><li> 01/2020, one paper has been accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE TNNLS</a>.</li></p>
+    <p><li> 11/2019, three papers have been accepted by <a href="https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf">AAAI 2020</a>.</li></p>
+    -->
+
+  </div>
+  <!-- The Projects Section -->
+  <div class="w3-container w3-padding-32" id="projects" style="display: none;">
+    <h2>Recent Projects</h2>
+    <p class="w3-justify">
+      Actually, model compression is a kind of technique for developing portable deep neural networks with lower memory
+      and computation costs. I have done several projects in Huawei including some smartphones' applications in 2019 and
+      2020 (e.g. Mate 30 and Honor V30). Currently, I am leading the AdderNet project, which aims to develop a series of
+      deep learning models using only additions (<a
+      href="https://www.reddit.com/r/MachineLearning/comments/ekw2s1/r_addernet_do_we_really_need_multiplications_in/">Discussions
+      on Reddit</a>).
+    </p>
+
+    <h4>
+      <li>The Vanilla Neural Architecture for the 2020s</li>
+    </h4>
+    <img style="width:96%;" src="images/VanillaNet.png">
+    <p class="w3-justify">
+      <a style="color: #447ec9" href="https://github.com/huawei-noah/VanillaNet">Project Page</a> | <a
+      style="color: #447ec9" href="https://arxiv.org/abs/2305.12972">Paper</a> | <a style="color: #447ec9"
+                                                                                    href="https://www.zhihu.com/question/531529633/answer/3047230939">Discussion
+      on Zhihu</a>
+    </p>
+    <p class="w3-justify">
+      <span style="color:red">VanillaNet is remarkable!</span> The concept was born from embracing the "less is more"
+      philosophy in computer vision. It's elegantly designed by avoiding intricate depth and operations, such as
+      self-attention, making it remarkably powerful yet concise. The 6-layer VanillaNet surpasses ResNet-34, and the
+      13-layer variant achieves about 83% Top-1 accuracy, outpacing the performance of networks with hundreds of layers,
+      and revealing exceptional hardware efficiency advantages.
+    </p>
+
+    <h4>
+      <li>Adder Neural Networks</li>
+    </h4>
+    <img style="width:96%;" src="images/AdderNet.jpg">
+    <p class="w3-justify">
+      <a style="color: #447ec9" href="https://github.com/huawei-noah/AdderNet">Project Page</a> | <a
+      style="color: #447ec9" href="https://arxiv.org/pdf/2101.10015.pdf">Hardware Implementation</a>
+    </p>
+    <p class="w3-justify">
+      I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about
+      2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the
+      last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story
+      more complete, we recent release the hardware implementation and some quantization methods. The results are quite
+      encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without
+      affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI
+      algorithms such as low-level vision, detection, and NLP tasks.
+    </p>
+
+    <h4>
+      <li>GhostNet on MindSpore: SOTA Lightweight CV Networks</li>
+    </h4>
+    <img style="width:96%;" src="images/GhostNet.png">
+    <p class="w3-justify">
+      <a style="color: #447ec9" href="https://live.huawei.com/huaweiconnect/meeting/cn/5872.html">Huawei Connect (HC)
+        2020</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub">MindSpore Hub</a>
+    </p>
+    <p class="w3-justify">
+      The initial verison of GhostNet was accepted by CVPR 2020, which achieved SOTA performance on ImageNet: <span
+      style="color:red">75.7%</span> top1 acc with only <span style="color:red">226M FLOPS</span>. In the current
+      version, we release a series computer vision models (e.g. int8 quantization, detection, and larger networks) on
+      <strong>MindsSpore 1.0</strong> and <strong>Mate 30 Pro (Kirin 990)</strong>.
+    </p>
+
+    <h4>
+      <li>AI on Ascend: Real-Time Video Style Transfer</li>
+    </h4>
+    <img style="width:32%;" src="images/atlas200.png"> &nbsp&nbsp <img style="width:60%;" src="images/video.gif">
+    <p class="w3-justify">
+      <a style="color: #447ec9" href="https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html">Huawei Developer Conference
+        (HDC) 2020</a> | <a style="color: #447ec9"
+                            href="https://developer.huaweicloud.com/exhibition/Atlas_neural_style.html">Online Demo</a>
+    </p>
+    <p class="w3-justify">
+      This project aims to develop a video style transfer system on the <strong>Huawei Atlas 200 DK AI developer
+      Kit</strong>. The latency of the original model for processing one image is about <span
+      style="color:red">630ms</span>. After accelerating it using our method, the lantency now is about <span
+      style="color:red">40ms</span>.
+    </p>
+
+  </div>
+
+  <!-- The Talks Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="talks" style="display: none;">
+    <h2>Talks</h2>
+    <p>
+      <li> 12/2022, Hardware Efficient Deep Learning at <a href="https://ccf.org.cn/cncc2022/schedule_d_4179">China
+        National Computer Congress (CNCC) 2022</a>. Thanks Prof. <a href="http://www.nlpr.ia.ac.cn/jcheng/">Jian
+        Cheng</a> for the invitation.
+      </li>
+    </p>
+    <p>
+      <li> 05/2022, Low-Level Vision Transformer and Model Compression at <a href="https://2022.baai.ac.cn/">BAAI
+        Conference 2022</a>. Thanks Prof. <a href="https://people.ucas.edu.cn/~sgshan?language=en">Shiguang Shan</a> for
+        the invitation.
+      </li>
+    </p>
+    <p>
+      <li> 10/2021, Vision Transformer at <a href="http://valser.org/2021/#/tutorial">VALSE 2021 Tutorial</a>. Thanks
+        Prof. <a href="https://people.ucas.edu.cn/~sgshan?language=en">Shiguang Shan</a> for the invitation.
+      </li>
+    </p>
+    <p>
+      <li> 05/2021, Adder Neural Network at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021
+        workshop</a>. Thanks <a href="https://datawisdom.ca/">Vahid Partovi Nia</a> for the invitation.
+      </li>
+    </p>
+    <p>
+      <li> 06/2020, "<a
+        href="http://valser.org/webinar/slide/slides/20200603/%E6%A8%A1%E5%9E%8B%E5%8E%8B%E7%BC%A9-%E5%B7%A5%E4%B8%9A%E7%95%8C%E5%92%8C%E5%AD%A6%E6%9C%AF%E7%95%8C%E7%9A%84%E5%B7%AE%E5%BC%82.pdf">AI
+        on the Edge - Discussion on the Gap Between Industry and Academia</a>" at <a href="http://valser.org/">VALSE
+        Webinar.</li>
+    <p>
+      <li> 05/2020, "<a href="https://www.bilibili.com/video/av925692420/">Edge AI: Progress and Future Directions</a>"
+        at <a href="https://www.qbitai.com/">QbitAI</a>.
+      </li>
+    </p>
+  </div>
+  <!-- The Publications Section -->
+  <div class="w3-container w3-padding-32"
+  " id="publications">
+  <h2>Research</h2>
+  <!--  <p class="w3-left-align" style="line-height:200%" >-->
+  <!--    I'm interested in devleoping <strong>efficient models</strong> for computer vision (e.g. classification, detection,-->
+  <!--    and super-resolution) using pruning, quantization, distilaltion, NAS, etc.-->
+  <!--  </p>-->
+  <!--  <h4> Conference Papers:</h4>-->
+
+  <ol>
+
+    <p>
+      <li><strong>WavMark: Watermarking for Audio Generation</strong>
+        <br>
+        <strong>Guangyu Chen</strong>, Yu Wu, Shujie Liu, Tao Liu, Xiaoyong Du, Furu Wei
+        <br>
+        <a style="color: #447ec9" href="https://github.com/wavmark/wavmark">code</a>
+      </li>
+    </p>
+
+    <p>
+      <li><strong>A Reality Check and A Practical Baseline for Semantic Speech Embedding</strong>
+        <br>
+        <strong>Guangyu Chen</strong>, Yuanyuan Cao
+        <br>
+        <em>ICASSP</em> 2023 | <a style="color: #447ec9" href="https://github.com/my-yy/s2v_rc">code</a>
+      </li>
+    </p>
+
+    <p>
+      <li><strong>EFT: Expert Fusion Transformer for Voice-face Association Learning</strong>
+        <br>
+        <strong>Guangyu Chen</strong>, Deyuan Zhang, Tao Liu, Xiaoyong Du
+        <br>
+        <em>ICME</em> 2023 | <a style="color: #447ec9" href="https://github.com/my-yy/eft-icme2023">code</a>
+      </li>
+    </p>
+
+    <p>
+      <li><strong>Local-global Contrast for Learning Voice-face Representations</strong>
+        <br>
+        <strong>Guangyu Chen</strong>, Deyuan Zhang, Tao Liu, Xiaoyong Du
+        <br>
+        <em>ICIP</em> 2023
+      </li>
+    </p>
+
+    <p>
+      <li><strong>Self-Lifting: A Novel Framework for Unsupervised Voice-Face Association Learning</strong>
+        <br>
+        <strong>Guangyu Chen</strong>, Deyuan Zhang, Tao Liu, Xiaoyong Du
+        <br>
+        <em>ICMR</em> 2022 | <a style="color: #447ec9" href="https://github.com/my-yy/sl_icmr2022">code</a>
+      </li>
+    </p>
+
+    <p>
+      <li><strong>Complex Named Entity Recognition via Deep Multi-task Learning From Scratch</strong>
+        <br>
+        <strong>Guangyu Chen</strong>, Tao Liu, Deyuan Zhang, Bo Yu, Baoxun Wang
+        <br>
+        <em>NLPCC</em> 2018
+      </li>
+    </p>
+
+
+  </ol>
+
+
+</div>
+
+<!-- The Services Section -->
+<div class="w3-container w3-light-grey w3-padding-32" id="service" style="display: none">
+  <h2>Services</h2>
+  <p>
+    <li> Area Chair of <a href="https://nips.cc/Conferences/2023/">NeurIPS 2023</a>, <a
+      href="https://icml.cc/Conferences/2023">ICML 2023</a>, <a href="https://nips.cc/Conferences/2022/">NeurIPS
+      2022</a>, <a href="https://icml.cc/Conferences/2021">ICML 2021</a>, <a href="https://nips.cc/Conferences/2021/">NeurIPS
+      2021</a>.
+  </p>
+  <p>
+    <li> Action Editor of <a href="https://jmlr.org/tmlr/">TMLR (Transactions on Machine Learning Research)</a>.
+  </p>
+  <p>
+    <li> Senior Program Committee Members of <a href="https://ijcai-21.org/">IJCAI 2021</a>, <a
+      href="https://www.ijcai20.org/">IJCAI 2020</a> and <a href="https://www.ijcai19.org/program-committee.html">IJCAI
+      2019</a>.
+  </p>
+  <p>
+    <li> Journal Reviewers of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE T-PAMI</a>, <a
+      href="https://www.springer.com/journal/11263">IJCV</a>, <a
+      href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">IEEE T-IP</a>, <a
+      href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE T-NNLS</a>, <a
+      href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">IEEE T-MM</a>, <a
+      href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69">IEEE T-KDE</a>, etc.
+  </p>
+  <p>
+    <li> Program Committee Members of ICCV 2021, AAAI 2021, ICLR 2021, NeurIPS 2020, ICML 2020, ECCV 2020, CVPR 2020,
+      ICLR 2020, AAAI 2020, ICCV 2019, CVPR 2019, ICLR 2019, AAAI 2019, IJCAI 2018, AAAI 2018, NeurIPS 2018, etc.
+  </p>
+</div>
+
+<!-- The Awards Section -->
+<div class="w3-container w3-padding-32" id="award" style="display: none;">
+  <h2>Awards</h2>
+  <p>
+    <li> 2020, <a href="https://mp.weixin.qq.com/s/dORL01lgFNDHgjp3KMJmiQ">Nomination for Outstanding Youth Paper
+      Award</a>, <a href="https://worldaic.com.cn/portal/en/aboutus.html">WAIC</a>.
+  </p>
+  <p>
+    <li> 2017, <a href="https://research.google/outreach/phd-fellowship/recipients/?category=2017">Google PhD
+      Fellowship</a>.
+  </p>
+  <p>
+    <li> 2017, <a href="http://scholarship.baidu.com/">Baidu Scholarship.</a>
+  </p>
+  <p>
+    <li> 2017, President's PhD Scholarship, Peking University.
+  </p>
+  <p>
+    <li> 2017, National Scholarship for Graduate Students.
+  </p>
+  <p>
+    <li> 2016, National Scholarship for Graduate Students.
+  </p>
+</div>
+
+<div class="w3-center w3-padding-24" style="font-size: 0.1em;color: lightgray;">
+  Template created by <a href="https://www.wangyunhe.site/#home">Yunhe Wang</a>
+</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+  // Accordion
+  function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+
+  // Click on the "Jeans" link on page load to open the accordion for demo purposes
+  document.getElementById("myBtn").click();
+
+
+  // Open and close sidebar
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+
 </body>
 </html>
